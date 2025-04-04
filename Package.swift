@@ -26,9 +26,10 @@ let package = Package(
         .target(
             name: "LotrSdkWrapper",
             dependencies: [
-                "LotrSdk", "Alamofire", "Moya", "Realm", "RealmSwift", "RxCoreLocation", "RxRealm", "RxSwift"
+                "LotrSdk", "Alamofire", "Moya", "RxCoreLocation", "RxRealm", "RxSwift",
+                .product(name: "Realm", package: "RealmSwift"),
+                .product(name: "RealmSwift", package: "RealmSwift"),
             ]
         ),
-
     ]
 )
