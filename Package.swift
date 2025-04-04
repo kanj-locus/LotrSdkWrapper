@@ -26,7 +26,7 @@ let package = Package(
         .target(
             name: "LotrSdkWrapper",
             dependencies: [
-                "LotrSdk", "Alamofire", "Moya", "ReactiveSwift", "Realm", "RealmDatabase", "RxCoreLocation", "RxRealm", "RxSwift"
+                "LotrSdk", "Alamofire", "Moya", "Realm", "RealmSwift", "RxCoreLocation", "RxRealm", "RxSwift"
             ]
         ),
 
