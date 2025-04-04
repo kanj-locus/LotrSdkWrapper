@@ -27,8 +27,8 @@ let package = Package(
             name: "LotrSdkWrapper",
             dependencies: [
                 "LotrSdk", "Alamofire", "Moya", "RxCoreLocation", "RxRealm", "RxSwift",
-                .product(name: "Realm", package: "RealmSwift"),
-                .product(name: "RealmSwift", package: "RealmSwift"),
+                .product(name: "Realm", package: "realm-swift"),
+                .product(name: "RealmSwift", package: "realm-swift"),
             ]
         ),
     ]
